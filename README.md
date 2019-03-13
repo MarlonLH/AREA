@@ -1,5 +1,5 @@
 # BS-Area Platform &middot;
-The platform to improve productivity and bullshit.
+The platform to improve productivity.
 
 ## Installing / Getting started / Prerequisites
 
