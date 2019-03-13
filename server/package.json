@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "bcrypt-promise": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "googleapis": "^37.2.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "randomcolor": "^0.5.4",
+    "request": "^2.88.0",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^4.1.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.2.0",
+    "validator": "^10.11.0"
+  }
+}

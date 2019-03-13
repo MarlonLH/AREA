@@ -1,0 +1,631 @@
+@font-face {
+	font-family: 'PT_Sans';
+	src: url("./ressources/PT_Sans.ttf")
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'PT_Sans';
+	color: black !important;
+}
+
+#components-form-demo-normal-login .login-form {
+	max-width: 300px;
+}
+
+#components-form-demo-normal-login .login-form-forgot {
+	float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+	width: 100%;
+}
+
+/* BS LIB */
+
+.homepageContainer {
+	width: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+/*  BS HEADER  */
+
+.bsHeader-container {
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: white;
+	font-family: 'PT_Sans';
+}
+
+.bsHeader-main {
+	max-width: 1420px;
+    display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.bsHeader-content-container {
+	display: flex;
+}
+
+.bsHeader-name {
+	flex: 1;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 15px;
+}
+
+.bsHeader-buttons {
+	flex: 1;
+	text-align: right;
+	margin-right: 10px;
+	padding-top: 20px;
+}
+
+/*  BS BUTTONS  */
+
+.bsButton {
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border: 0px;
+	border-radius: 0;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.bsButton:hover {
+	cursor: pointer;
+}
+
+.bsButton-1 {
+	width: 125px;
+	height: 50px;
+	display: inline-block;
+}
+
+.bsButton-borderblue {
+	border: 2px solid blue;
+	border-radius: 30px;
+	margin: 10px;
+	color: black;
+}
+
+.bsButton-bgblue {
+	background-color: blue;
+	color: white;
+}
+
+.bsButton-link {
+	color: blue;
+	font-style: normal;
+	text-decoration: none;
+}
+
+/*  BS SLIDER  */
+
+.bsWelcome-container {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("./ressources/sliderBg.jpeg");
+	background-color: #cccccc;
+	background-position: center;
+	background-size: cover;
+	height: 720px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.bsWelcome-main {
+	max-width: 1420px;
+    display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding-top: 125px;
+}
+
+.bsWelcome-span1 {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.bsWelcome-span2 {
+	margin: 10px;
+	font-size: 30px;
+}
+
+.bsWelcome-span-title {
+	font-size: 52px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+/*  BS BIG BUTTON  */
+
+.bsBigButton-div {
+	width: 100%;
+	text-align: center;
+}
+
+.bsBigButton-blue {
+	background-color: blue;
+	border: 1px solid blue;
+	width: 100%;
+	height: 100px;
+	font-size: 34px;
+	color: white;
+	transition: 0.5s;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.bsBigButton-blue:hover {
+	background-color: darkblue;
+	border: 1px solid darkblue;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+/*  BS PRODUCT  */
+
+.product-image {
+	width: 100%;
+	padding-right: 10%;
+}
+
+.productContainer {
+	width: 100%;
+	max-width: 1420px;
+	text-align: center;
+	align-content: center;
+	display: inline-flex;
+	padding: 50px;
+}
+
+.BsServiceSquarePres {
+	float: left;
+    position: inherit;
+	width: 14.28%;
+    padding-bottom: 14.28%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	transition: all .2s;
+}
+
+.BsServiceSquarePres:hover {
+    background-size: 115%;
+	cursor: pointer;
+}
+
+.firstLeftProduct {
+	width: 50%;
+	text-align: left;
+}
+
+.firstRightProduct {
+	width: 50%;
+	text-align: right;
+}
+
+.product-p-title {
+	font-weight: bold;
+	font-size: 34px;
+}
+
+.product-span-title {
+	font-size: 36px;
+}
+
+.product-p-text {
+	font-size: 30px;
+}
+
+.link1 {
+	text-decoration: none;
+	background-color: white;
+	color: blue;
+	padding: 10px 30px 10px 30px;
+	border-radius: 120px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-right: 15px;
+}
+
+.link2 {
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+	padding: 10px 30px 10px 30px;
+	border-radius: 120px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-right: 15px;
+}
+
+.title-header {
+	text-decoration: none;
+	color: black;
+	padding: 10px 30px 10px 30px;
+	font-size: 32px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.bs-signin {
+	background-color: rgba(0, 0, 0, 0.05);
+	text-align: center;
+	align-content: center;
+	height: 100vh;
+}
+
+.bs-signin-main {
+	max-width: 710px;
+	display: inline-block;
+	width: 100%;
+	padding-top: 150px;
+	font-family: 'PT_Sans';
+}
+
+.bs-signin-container {
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	border-radius: 5px;
+}
+
+.bs-signin-title {
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px 0 15px 0;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.bs-signin-subtitle {
+	color: black;
+	font-size: 22px;
+	padding: 25px;
+}
+
+/*  BS FORM  */
+
+.bs-form-container {
+	max-width: 400px;
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+}
+
+.icon-input {
+	color: rgba(0, 0, 0, 0.25);
+}
+
+.bs-signin-checkbox {
+	text-align: left;
+}
+
+.ant-btn-primary {
+	background-color: blue !important;
+	font-size: 26px !important;
+	height: 100% !important;
+	width: 355px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.ant-btn-primary:hover {
+	background-color: darkblue !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+	background-color: blue !important;
+	border-color: blue !important;
+}
+
+.ant-btn-primary[disabled] {
+	background-color: lightgrey !important;
+	color: white !important;
+}
+
+.bs-signin-changetologin {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.bsDropdown-title {
+	font-size: 18px;
+	color: blue;
+	float: right;
+	width: auto;
+	cursor: pointer;
+}
+
+.bsDropdown-disconnect {
+	color: red;
+}
+
+.bsDropdown-disconnect:hover {
+	color: darkred;
+}
+
+.BsDashboard-main {
+	background-color: rgba(0, 0, 0, 0.05);
+	text-align: center;
+	align-content: center;
+	height: 100vh;
+	padding-top: 75px;
+}
+
+.BsSelectService-main {
+	height: 300px;
+	display: table;
+	overflow: hidden;
+	width: 100%;
+}
+
+.BsSelectService-none-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.BsSelectService-none {
+	font-size: 24px;
+}
+
+.BsDashboardServices-main {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: start;
+	display: flex;
+}
+
+.BsDashboardAdd-main {
+	width: fit-content;
+	height: fit-content;
+}
+
+.BsDashboardAdd-main:hover {
+	cursor: pointer;
+}
+
+.BsDashboardAdd-cross {
+	color: darkgrey;
+}
+
+.BsDashboardAdd-cross:hover {
+	color: grey;
+}
+
+.BsDashboardCancel {
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	color: red;
+	font-size: 25px;
+	transition: 0.25s;
+}
+
+.BsDashboardCancel:hover {
+	color: darkred;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.BsManageAuth-main {
+	padding-bottom: 20px;
+}
+
+.BsAuthButton-container {
+	max-width: 400px;
+	justify-content: center;
+	text-align: center;
+	display: inline-block;
+}
+
+.BsAuthButton {
+	border: rgba(0,0,0,0.15) 1px solid;
+	padding: 1px 10px 1px 1px;
+	border-radius: 5px;
+}
+
+.BsGoogleAuth-a {
+	margin-top: 2px;
+}
+
+.BsAuthButtonImage {
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+}
+
+.BsService-Placeholder {
+	width: 100%;
+}
+
+.BsServiceSquare {
+	float: left;
+    position: relative;
+	width: 12.5%;
+    padding-bottom: 12.5%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	transition: all .2s;
+}
+
+.BsServiceSquare:hover {
+    background-size: 115%;
+	cursor: pointer;
+}
+
+.BsSelectedService-main {
+	display: inline-flex;
+}
+
+.BsSelectedService {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+.BsSelectedServiceChevron {
+    height: 100%;
+    font-size: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.BsNoSelectService {
+	font-size: 24px;
+}
+
+.BsTable100 {
+	display: table;
+	height: 100%;
+}
+
+.BsTableCellMiddle {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.BsDividerBlack10 {
+	background: black !important;
+	margin: 7px 0px 0px 0px !important;
+}
+
+.BsServiceActionInput {
+	width: 100%;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.BsServicesTabs {
+	width: 100%;
+}
+
+.ant-tabs-tab {
+    width: 50%;
+	text-align: center;
+	margin: 0px !important;
+}
+
+.ant-tabs-nav {
+	width: 100%;
+}
+
+.ant-tabs-bar {
+	margin: 0px !important;
+}
+
+.BsSelectServiceButton-container {
+	margin-top: 20px;
+}
+
+.BsSelectServiceButton {
+	border: 1px solid white;
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.BsSelectServiceButton:hover {
+	cursor: pointer;
+	color: darkblue;
+}
+
+.BsTriggerFieldsDiv {
+	display: grid;
+}
+
+.BsTriggerDiv {
+	display: inline-flex;
+	margin: 7px 0px 0px 0px;
+}
+
+.BsTriggerField {
+	width: 90%;
+}
+
+.BsTriggerInfo {
+	width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.BsAreaDiv {
+	padding: 5px 10px;
+	display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.BsAreaDelete {
+	margin-left: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.BsAreaDelete {
+	cursor: pointer;
+}
+
+.BsUserServiceArea {
+	max-height: 150px;
+    overflow-y: auto;
+    padding: 8px;
+}
+
+.BsAppAndroid {
+	background-image: url('https://i.imgur.com/l7Q56Py.png');
+}
+
+.BsAppDl1:hover {
+	cursor: pointer;
+}
+
+.BsAppDl2 {
+	width: 25%;
+	min-width: 150px;
+}
+
+.BsAppDl2:hover {
+	cursor: pointer;
+}
+
+.productAppDl {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.backgroundColorLightgray {
+	background-color: lightgray;
+	padding: 30px;
+}
+
+.BsAppPlaceholder {
+	text-align: center;
+	align-content: center;
+}

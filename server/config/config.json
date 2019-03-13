@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "username": "bsweb",
+    "password": "bw_securedpassword",
+    "database": "bsweb",
+    "host": "mysql-db",
+    "dialect": "mysql"
+  }
+}
