@@ -1,6 +1,13 @@
 # BS-Area Platform &middot;
 The platform to improve productivity.
 
+## Authors
+
+[Marlon L'HUILLIER](https://github.com/MarlonLH/)
+[Arnaud CLERC](https://github.com/arnaudclerc)
+[Laurent COLOMA](https://github.com/LaurentColoma)
+[Yann FLORIS](https://github.com/YFloris)
+
 ## Installing / Getting started / Prerequisites
 
 Install Brew
